@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)); */
+    background: url("../img/bg.jpg") no-repeat center center/cover;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+    min-height: calc(100vh - 50px);
+}
+
+.container h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.container h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.container p {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-item .btn {
+    width: 100%;
+}
+
+form input {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+}
+
+.alert {
+    width: 40%;
+    text-align: center;
+}
